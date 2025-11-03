@@ -1,9 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Home from './components/Home';
+import Home from "./components/Home"; 
+
+
 
 function App() {
-
   const links = [{ label: "Cards", href: "cards.html" }, { label: "Botões", href: "btn.html" }, { label: "Formulario", href: "forms.html" }, { label: "Navbar", href: "nav.html" },
   { label: "Layout", href: "layout.html" }]
 
@@ -14,5 +15,5 @@ function App() {
     </div>
   );
 }
-
+ 
 export default App;
